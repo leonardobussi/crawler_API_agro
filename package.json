@@ -1,0 +1,28 @@
+{
+  "name": "crawler_api_agro",
+  "version": "0.0.1",
+  "description": "crawler de implementos agriculas para ser consumidos",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardobussi/crawler_API_agro.git"
+  },
+  "author": "leonardo bussi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardobussi/crawler_API_agro/issues"
+  },
+  "homepage": "https://github.com/leonardobussi/crawler_API_agro#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
